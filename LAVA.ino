@@ -15,7 +15,8 @@
 #define BUTTON_1  6   //Button 1: cycles color palettes
 #define BUTTON_2  5   //Button 2: cycles visualization modes
 #define BUTTON_3  4   //Button 3: toggles shuffle mode (automated changing of color and visual, cause why not)
-// If you put the buttons in a different pin, be sure to update the number!
+// If you put the buttons in a different pin, be sure to update the number! Also, if you decide to NOT use buttons for this project,
+// be sure to look for the sections that say "REMOVE THIS BLOCK OF CODE IF YOU DIDN"T USE BUTTONS" and then remove them.
 
 //////////<Globals>
 //  These values either need to be remembered from the last pass of loop() or
