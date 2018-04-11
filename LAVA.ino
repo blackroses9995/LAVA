@@ -60,11 +60,9 @@ float shuffleTime = 0;  //Holds how many seconds of runtime ago the last shuffle
 bool shuffle = false;  //Toggles shuffle mode.
 bool bump = false;     //Used to pass if there was a "bump" in volume
 
-//For Traffic() visual
 int8_t pos[LED_TOTAL] = { -2};    //Stores a population of color "dots" to iterate across the LED strand.
 uint8_t rgb[LED_TOTAL][3] = {0};  //Stores each dot's specific RGB values.
 
-//For Snake() visual
 bool left = false;  //Determines the direction of iteration. Recycled in PaletteDance()
 int8_t dotPos = 0;  //Holds which LED in the strand the dot is positioned at. Recycled in most other visuals.
 float timeBump = 0; //Holds the time (in runtime seconds) the last "bump" occurred.
