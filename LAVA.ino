@@ -1,7 +1,7 @@
 // Libraries used
 #include <Adafruit_NeoPixel.h>  //Library to simplify interacting with the LED strand
 #ifdef __AVR__
-#include <avr/power.h>   //Library for power reduction registers if your chip supports them. 
+#include <avr/power.h>   //Library for power reduction registers if your chip supports them. This really isn't THAT important
 #endif                   //More info: http://www.nongnu.org/avr-libc/user-manual/group__avr__power.htlm
 
 //Constants (change these as necessary)
